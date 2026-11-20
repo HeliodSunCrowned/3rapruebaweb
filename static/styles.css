@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(244, 244, 244, 0.75), rgba(244, 244, 244, 0.75)), url('meow.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Menú Principal */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.menu-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 26px;
+    text-decoration: underline;
+    padding: 22px 54px;
+    border-radius: 12px;
+    text-align: center;
+    min-width: 240px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.menu-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Tarjetas de Formularios */
+.card {
+    background-color: #ffffff;
+    padding: 32px 28px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-left h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #111111;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Ejercicio 2 (Alineación centrada como en captura) */
+.card-center {
+    text-align: center;
+    max-width: 420px;
+}
+
+.form-group-center {
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.form-group-center label {
+    display: block;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #111111;
+}
+
+.form-group-center input {
+    width: 90%;
+    padding: 10px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Botón Enviar */
+.btn-submit {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Resultados */
+.resultado-left {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #111111;
+    line-height: 1.8;
+}
+
+.resultado-center {
+    margin-top: 22px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 15px;
+    color: #111111;
+    line-height: 1.8;
+}
+
+.back-link {
+    margin-top: 22px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.back-link a {
+    color: #555555;
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
